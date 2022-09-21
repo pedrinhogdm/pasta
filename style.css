@@ -42,17 +42,19 @@ header{
 .menu-header{
     display: flex;
     gap: 30px;
+    list-style: none;
 }
 
 .links-header{
     padding: 10px;
+    font-size: 1.2em;
 }
 
 .links-header:hover{
     border-radius: 15px;
-    font-weight: bold;
     background-color: #00000069;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .conteudo-principal{
@@ -95,6 +97,8 @@ h1{
     width: max(40%, 200px);
     text-align: center;
     padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.482);
     font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
